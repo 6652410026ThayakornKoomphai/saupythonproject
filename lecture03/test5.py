@@ -1,0 +1,6 @@
+celcius = int(input("insert temp in celcius: "))
+fahrenheitCalculation = str(9/5 * celcius + 32)
+print("the temp in farenheit is :", fahrenheitCalculation, "F")
+print("the temp in farenheit is :" +fahrenheitCalculation+ "F")
+print(f"the temp in farenheit is : {fahrenheitCalculation}  F")
+print("the temp in farenheit is : {} F" .format(fahrenheitCalculation))
