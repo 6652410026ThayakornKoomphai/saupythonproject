@@ -1,0 +1,1 @@
+#Function แบบที่ 4 - Have parameters/ Have returns

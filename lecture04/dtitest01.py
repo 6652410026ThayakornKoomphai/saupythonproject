@@ -1,0 +1,11 @@
+width = float (input("ป้อนความกว้าง : "))
+long = float (input("ป้อนความยาว : "))
+high = float (input("ป้อนความสูง : "))
+print("-------------------------------")
+#คำนวณ
+total_area = ((width*long) * 2) + ((width*high) * 2) + ((high*long) * 2) 
+กี่แกลลอน = round(total_area / 5)
+print(f"you should have {long} long {width} width and {high} tall should have {กี่แกลลอน} gallon")
+print("you should have" , long, "long" , width, "width and", high, "tall should have",กี่แกลลอน,"gallon")
+print("you should have" +str (long) + "long" +str (width) , "width and"+str (high) + "tall should have"+str(กี่แกลลอน))
+print("you should have {} long {} width and {} gallon" .format ((long) , (width), (high), (กี่แกลลอน)))
