@@ -16,4 +16,4 @@ def pH_Check() :
     else :
         print("ผลลัพธ์เป็นอัลคาไลน์")
 
-phCheck()
+pH_Check()
