@@ -4,7 +4,7 @@ def inputValue() :
 
 number = inputValue()
 
-def numberToText() :
+def numberText() :
     if number == 1 :
         greet = "Welcome Freshman"
     elif number == 2 :
@@ -17,7 +17,7 @@ def numberToText() :
         greet = "Invalid number"
     return greet
 
-def showGreet():
-    print(numberToText())
+def showWelcome():
+    print(numberText())
 
-showGreet()
+showWelcome()
