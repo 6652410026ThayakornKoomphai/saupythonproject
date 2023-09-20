@@ -10,11 +10,11 @@ def commissionCheckAndCal() :
     if emp_Sales < 1000 :
         commission = 0
     elif emp_Sales < 2001 :
-        commission = emp_Sales + (emp_Sales * 1 / 100)
+        commission = emp_Sales * 1 / 100
     elif emp_Sales < 3001 :
-        commission = emp_Sales + (emp_Sales * 3 / 100)
+        commission = emp_Sales * 3 / 100
     else :
-        commission = emp_Sales + (emp_Sales * 5 / 100)
+        commission = emp_Sales * 5 / 100
     return commission
 
 def showCommission() :
