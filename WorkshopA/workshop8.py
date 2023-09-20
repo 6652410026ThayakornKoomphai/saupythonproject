@@ -4,7 +4,7 @@ def Province():
 
 def PH():
     ph = int(input("ใส่ค่า PH: "))
-    return ph
+    return PH
 
 def pH_Check() :
     Province()
