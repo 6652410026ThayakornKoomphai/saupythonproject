@@ -4,20 +4,12 @@ def detailproduct() :
     return name_product, price_product
 
 def calculatePrice() :
-    finalproductPrice = price_product + (price_product * 10 / 100)
+    finalproductPrice = productPrice + (productPrice * 10 / 100)
     return finalproductPrice
 
 def showPrice() :
-    print(f"The {name_product} is {calculatePrice()} baht")
+    print(f"The {productName} is {calculatePrice()} baht")
 
 productName, productPrice = detailproduct()
 
 showPrice()
-
-
-
-
-
-
-
-

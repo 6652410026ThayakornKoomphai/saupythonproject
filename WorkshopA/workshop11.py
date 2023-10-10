@@ -4,7 +4,7 @@ def UserDetails() :
     user_Times = float(input("ใส่เวลาในการใช้โทรของผู้ใช้: "))
     return user_Name, user_Tele, user_Times
 
-user_Name, user_Tele, user_Times = getUserDetails()
+user_Name, user_Tele, user_Times = UserDetails()
 
 def calculateServiceCost() :
     if user_Times >= 1 and user_Times < 16 :
@@ -16,6 +16,6 @@ def calculateServiceCost() :
     return serviceCost
 
 def showServiceCost() :
-    print(f"{userName} เบอร์โทร {userTel} คุณมีค่า service charge {calculateServiceCost()}")
+    print(f"{user_Name} เบอร์โทร {user_Tele} คุณมีค่า service charge {calculateServiceCost()}")
 
 showServiceCost()

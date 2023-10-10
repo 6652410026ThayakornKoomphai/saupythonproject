@@ -13,7 +13,7 @@ def numberText() :
         greet = "Welcome Junior"
     elif number == 4 :
         greet = "Welcome Senior"    
-      else :
+    else :
         greet = "Invalid number"
     return greet
 

@@ -18,6 +18,6 @@ def commissionCheckAndCal() :
     return commission
 
 def showCommission() :
-    print(f"{empID} {empName} คุณได้ค่าคอมมิชชัน {commissionCheckAndCal()} บาท.")
+    print(f"{emp_ID} {emp_Name} คุณได้ค่าคอมมิชชัน {commissionCheckAndCal()} บาท.")
 
 showCommission()

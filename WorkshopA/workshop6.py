@@ -1,7 +1,7 @@
 def BorrowerDetails() :
     borrowerName = input("ใส่ชื่อผู้กู้เงิน: ")
     MoneyBorrowed = float(input("ใส่จำนวนเงินที่ผู้กู้กู้ไป: "))
-    return borrowerName,borrowerMoneyBorrowed
+    return borrowerName,MoneyBorrowed
 
 borrowerName,MoneyBorrowed = BorrowerDetails()
 

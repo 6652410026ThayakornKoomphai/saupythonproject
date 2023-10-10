@@ -18,6 +18,6 @@ def calPackage() :
         return package
 
 def showPackage():
-    print(f"หัวหน้า {leader} เบอร์โทร {leaderNumber} คุณมี {touristmember} แพ็คนักท่องเที่ยวในราคา {calPackage()} บาท")
+    print(f"หัวหน้า {leader} เบอร์โทร {leaderTeleNumber} คุณมี {touristmember} แพ็คนักท่องเที่ยวในราคา {calPackage()} บาท")
 
 showPackage()
