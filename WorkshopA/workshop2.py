@@ -15,11 +15,3 @@ def showResult() :
     print(f"{stuID} {stuName} you have average score {calAverageScore():.2f}")
 
 showResult()
-
-
-
-
-
-
-
-
